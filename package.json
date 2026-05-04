@@ -1,0 +1,16 @@
+{
+  "name": "astana-travel-backend",
+  "version": "1.0.0",
+  "description": "Backend API for Astana Hajj & Umroh Travel",
+  "main": "backend/server.js",
+  "scripts": {
+    "start": "node backend/server.js",
+    "init-db": "node backend/init.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "sqlite3": "^5.1.7"
+  }
+}
